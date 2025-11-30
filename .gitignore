@@ -1,0 +1,18 @@
+
+# Ignore Odoo Data (Too heavy for Git)
+filestore/
+dump.sql
+*.zip
+*.log
+
+# Ignore System Files
+.DS_Store
+Thumbs.db
+
+# Ignore Python compilation files
+__pycache__/
+*.py[cod]
+
+# Ignore IDE settings (Optional)
+.vscode/
+.idea/
